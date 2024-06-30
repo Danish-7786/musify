@@ -1,0 +1,16 @@
+.icon{
+    display: inline-block;
+    transition: all 1s ease;
+}
+button:hover .icon{
+    transform: scale(1.1);
+}
+input[type="range"]{
+    --range-progress :0;
+}
+input[type="range"]::before{
+    
+    background:#f50;
+    width: var(--range-progress);
+}
+
